@@ -1,4 +1,4 @@
-FROM nodered/node-red-docker
+FROM nodered/node-red-docker:v6
 MAINTAINER Sergio Pérez <sergio@pereznus.es>
 
 ##################################################
