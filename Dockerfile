@@ -7,7 +7,7 @@ MAINTAINER Sergio Pérez <sergio@pereznus.es>
 
 USER root
 RUN apt-get update
-RUN apt-get install -y curl wget libavahi-compat-libdnssd-dev
+RUN apk --no-cache add dbus nodejs avahi avahi-compat-libdns_sd avahi-dev curl wget
 
 ##################################################
 # Start                                          #
