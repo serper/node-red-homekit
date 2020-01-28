@@ -6,7 +6,7 @@ MAINTAINER Sergio Pérez <sergio@pereznus.es>
 ##################################################
 
 USER root
-RUN apt-get update
+RUN apk update
 RUN apk --no-cache add dbus nodejs avahi avahi-compat-libdns_sd avahi-dev curl wget
 
 ##################################################
